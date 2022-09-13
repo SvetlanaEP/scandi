@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="scandi.css">
 </head>
 <body>
-<header class="header">
+<header class="header container">
     <div>
         <nav class="navigation">
             <a class="nav__name" href="scandi.html">
@@ -63,23 +63,31 @@
         <a class="request" href="#application">Оставить заявку</a>
     </div>
 </header>
-<main>
-    <h1>Сайт дизайн студии SCANDI</h1>
-    <section>
-        <h2 id="about_us">О нас</h2>
-        <p>
-            Премиальный европейский текстиль — одно из самых главных направлений работы коллектива.
-            Создавать неповторимые интерьеры для наших дорогих клиентов, уделяя внимание мельчайшим деталям — вот то,  что по-настоящему вдохновляет дизайнеров нашей студии. 
-        </p>
-        <p>
-            Наш коллектив сделает все, чтобы после сотрудничества с нами,  Вам было приятно сказать:
-            « Да! Это именно то, что действительно достойно моего дома!»
-        </p>
-        <div>
-            <ul>
-                <li>5 лет опыта</li>
-                <li>100 проектов</li>
-                <li>10 наград</li>
+<main class="container">
+    <h1 class="visually-hidden">Сайт дизайн студии SCANDI</h1>
+    <section class="about_us">
+        <h2 class="about_us__title" id="about_us">О нас</h2>
+        <div class="about_us__content">
+            <img class="about_us__img" src="img/about_us.jpg" width="445" height="465" alt="Пример интерьера">
+            <div class="about_us__text">
+                <p>
+                    Премиальный европейский текстиль — одно из самых главных направлений работы коллектива.
+                    Создавать неповторимые интерьеры для наших дорогих клиентов,
+                    уделяя внимание мельчайшим деталям — вот то,  что по-настоящему вдохновляет дизайнеров нашей студии.
+                </p>
+                <p>
+                    Наш коллектив сделает все, чтобы после сотрудничества с нами,  Вам было приятно сказать:<br>
+                    «Да! Это именно то, что действительно достойно моего дома!»
+                </p>
+            </div>
+
+        </div>
+
+        <div class="about_us__stat">
+            <ul class="about_us__list">
+                <li class="about_us__item"><span class="stat__number">5</span> лет опыта</li>
+                <li class="about_us__item"><span class="stat__number">100</span> проектов</li>
+                <li class="about_us__item"><span class="stat__number">10</span> наград</li>
             </ul>
         </div>
     </section>
