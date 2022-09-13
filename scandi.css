@@ -50,7 +50,6 @@ input[type="radio"].visually-hidden {
     font-size: 16px;
     line-height: 16px;
     font-weight: 400;
-
 }
 
 .header {
@@ -179,3 +178,57 @@ input[type="radio"].visually-hidden {
     line-height: 62px;
     padding-bottom: 8px;
 }
+
+.portfolio {
+    width: 1200px;
+    margin: 65px auto;
+}
+
+.portfolio__title {
+    font-size: 40px;
+    line-height: 50px;
+    margin: 0 0 40px;
+}
+
+.portfolio__example {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.portfolio__description {
+    position: relative;
+    height: 451px;
+    text-align: center;
+}
+
+.portfolio__intro {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+
+    color: white;
+    background-color: rgba(100, 72, 69, 0.8);
+}
+
+.portfolio__example {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px 20px;
+}
+
+.portfolio__name {
+    font-size: 30px;
+    line-height: 32px;
+    margin: 85px 0 30px;
+}
+
+.portfolio__text {
+    font-size: 18px;
+    line-height: 30px;
+    width: 420px;
+    margin: 0 auto;
+    text-align: left;
+}
+
