@@ -255,3 +255,37 @@ input[type="radio"].visually-hidden {
     right: -70px;
 }
 
+.team {
+    background-color: #E2C4BA;
+    padding: 50px 100px 35px;
+}
+
+.team__title {
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+    margin: 0 0 40px;
+}
+
+.team__list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 38px 38px;
+
+
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.team__item {
+    width: 320px;
+}
+
+.team__info {
+    margin: 10px 0 0;
+    font-size: 18px;
+    line-height: 30px;
+}
+
