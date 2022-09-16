@@ -216,6 +216,7 @@ input[type="radio"].visually-hidden {
     display: flex;
     flex-wrap: wrap;
     gap: 30px 20px;
+    margin-bottom: 40px;
 }
 
 .portfolio__name {
@@ -230,5 +231,27 @@ input[type="radio"].visually-hidden {
     width: 420px;
     margin: 0 auto;
     text-align: left;
+}
+
+.portfolio__button {
+    position: relative;
+    display: block;
+    font-size: 30px;
+    line-height: 30px;
+
+    border: none;
+    background-color: transparent;
+
+    margin: 0 auto;
+}
+
+.portfolio__button::after {
+    position: absolute;
+    content: "";
+    width: 61px;
+    height: 15px;
+    background-image: url("img/arrow-for-button.svg");
+    top: 12px;
+    right: -70px;
 }
 
