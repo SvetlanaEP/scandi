@@ -188,6 +188,7 @@ input[type="radio"].visually-hidden {
     font-size: 40px;
     line-height: 50px;
     margin: 0 0 40px;
+    text-transform: uppercase;
 }
 
 .portfolio__example {
@@ -265,6 +266,7 @@ input[type="radio"].visually-hidden {
     line-height: 50px;
     text-align: center;
     margin: 0 0 40px;
+    text-transform: uppercase;
 }
 
 .team__list {
@@ -299,6 +301,7 @@ input[type="radio"].visually-hidden {
     font-size: 40px;
     line-height: 50px;
     text-align: center;
+    text-transform: uppercase;
 }
 
 .method-of-work__list {
@@ -334,4 +337,5 @@ input[type="radio"].visually-hidden {
     font-size: 18px;
     line-height: 28px;
 }
+
 
