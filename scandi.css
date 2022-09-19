@@ -459,4 +459,15 @@ input[type="radio"].visually-hidden {
     margin-top: 31px;
 }
 
+.footer__contacts {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 42px;
+    margin: 37px 100px;
+}
+
+
+.footer__ip {
+    margin-left: auto;
+}
 
