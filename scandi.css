@@ -34,6 +34,14 @@ input[type="radio"].visually-hidden {
     overflow: hidden;
 }
 
+.button {
+    width: 309px;
+    height: 74px;
+    font-size: 20px;
+    line-height: 74px;
+    text-align: center;
+}
+
 .container {
     width: 1400px;
     margin: 0 auto;
@@ -111,12 +119,6 @@ input[type="radio"].visually-hidden {
 
 .request {
     display: block;
-    width: 309px;
-    height: 74px;
-    font-size: 20px;
-    line-height: 74px;
-    text-align: center;
-
     background-color: #CC8B86;
 }
 
@@ -135,7 +137,6 @@ input[type="radio"].visually-hidden {
 .about_us__content {
     display: flex;
     justify-content: center;
-
 }
 
 .about_us__img {
@@ -452,12 +453,6 @@ input[type="radio"].visually-hidden {
 }
 
 .contacts__btn {
-    width: 309px;
-    height: 74px;
-    font-size: 20px;
-    line-height: 74px;
-    text-align: center;
-
     color: #533738;
     background-color: #CC8B86;
     border: none;
