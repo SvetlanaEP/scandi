@@ -212,29 +212,32 @@
         </div>
 
     </section>
-    <section>
-        <div>
-            <h2 id="application">Оставить заявку</h2>
-            <p>
-                Оставьте свои контакты. Менеджер перезвонит
-                в удобное вам время и ответит на все вопросы.
-            </p>
-            <form action="https://echo.htmlacademy.ru" method="post">
-                <p>
-                    <label for="user-name">Ваше имя</label>
-                    <input id="user-name" type="text" name="name" placeholder="Ваше имя">
+    <section class="contacts">
+        <div class="contacts__wrapper">
+            <div class="contacts__form">
+                <h2 class="contacts__title" id="application">Оставить заявку</h2>
+                <p class="contacts__text">
+                    Оставьте свои контакты. Менеджер перезвонит
+                    в удобное вам время и ответит на все вопросы.
                 </p>
-                <p>
-                    <label for="user-phone">Ваш телефон</label>
-                    <input id="user-phone" type="tel" name="phone" placeholder="Введите телефон">
-                </p>
-            </form>
-            <button type="submit">
-                Оставить заявку
-            </button>
+                <form action="https://echo.htmlacademy.ru" method="post">
+                    <p>
+                        <label class="visually-hidden" for="user-name">Ваше имя</label>
+                        <input class="contacts__input" id="user-name" type="text" name="name" placeholder="Ваше имя">
+                    </p>
+                    <p>
+                        <label class="visually-hidden" for="user-phone">Ваш телефон</label>
+                        <input class="contacts__input" id="user-phone" type="tel" name="phone" placeholder="Введите телефон">
+                    </p>
+                </form>
+                <button class="contacts__btn" type="submit">
+                    Оставить заявку
+                </button>
+            </div>
+            <img src="img/map.png" width="590" height="624"
+                 alt="Адрес дизайн-студии: ул.Большая конюшенная,19">
         </div>
-        <img src="img/map.png" width="590" height="624"
-        alt="Адрес дизайн-студии: ул.Большая конюшенная,19">
+
     </section>
 </main>
 
