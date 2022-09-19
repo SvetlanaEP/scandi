@@ -408,3 +408,60 @@ input[type="radio"].visually-hidden {
     right: 0;
 }
 
+.contacts {
+    background-color: #8D7370;
+    color: white;
+}
+
+.contacts__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    margin-left: 182px;
+}
+
+.contacts__form {
+    width: 508px;
+    margin-top: 50px;
+}
+.contacts__title {
+    text-transform: uppercase;
+    font-size: 40px;
+    line-height: 50px;
+    margin: 0 0 24px;
+}
+
+.contacts__text {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 18px;
+    line-height: 30px;
+    margin: 0 0 44px;
+}
+
+.contacts__input {
+    width: 100%;
+    height: 35px;
+
+    background-color: transparent;
+    border: none;
+    border-bottom: solid white 1px;
+}
+
+.contacts__input::placeholder {
+    color: #F6EDE9;
+}
+
+.contacts__btn {
+    width: 309px;
+    height: 74px;
+    font-size: 20px;
+    line-height: 74px;
+    text-align: center;
+
+    color: #533738;
+    background-color: #CC8B86;
+    border: none;
+    margin-top: 31px;
+}
+
+
