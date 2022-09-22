@@ -94,9 +94,18 @@ input[type="radio"].visually-hidden {
     width: 868px;
 }
 
-.nav__site a {
+.nav__site a, .nav__phone {
     display: block;
     padding: 13px;
+}
+
+.navigation a:focus,
+.navigation a:hover {
+    background-color: #E2C4BA;
+}
+
+.navigation a:active {
+    background-color: #CC8B86;
 }
 
 .intro__wrapper {
