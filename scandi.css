@@ -492,3 +492,34 @@ input[type="radio"].visually-hidden {
     margin-left: auto;
 }
 
+.back_to_top {
+    position: fixed;
+    bottom: 10%;
+    left: 0;
+    z-index: 9999;
+    width: 80px;
+    height: 50px;
+    text-align: center;
+    vertical-align: bottom;
+    font-size: 50px;
+    line-height: 30px;
+    background: #CC8B86;
+    opacity: 50%;
+    color: white;
+    cursor: pointer;
+    border-radius: 8px;
+    display: none;
+}
+
+.back_to_top:hover {
+    background: #533738;
+}
+
+.back_to_top:active {
+    opacity: 1;
+}
+
+.back_to_top-show {
+    display: block;
+}
+
