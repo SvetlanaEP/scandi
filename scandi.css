@@ -44,11 +44,11 @@ input[type="radio"].visually-hidden {
 
 .button:hover, .button:focus {
     background-color: #BA7F7A;
+    border: 3px solid rgba(174, 119, 115, 1);
  }
 
 .button:active {
     background-color: rgba(174, 119, 115, 1);
-    box-shadow: inset 0 5px 0 rgba(174, 119, 115, 1);
 }
 
 .container {
@@ -419,6 +419,15 @@ input[type="radio"].visually-hidden {
     border-radius: 50%;
 
     top: 236px;
+}
+
+.reviews__btn:hover, .reviews__btn:focus {
+    background-color: #B67B77;
+    border: 3px solid #A36F6B;
+}
+
+.reviews__btn:active {
+    background-color: #A36F6B;
 }
 
 .reviews__prev {
