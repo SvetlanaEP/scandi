@@ -373,13 +373,32 @@ input[type="radio"].visually-hidden {
     margin: 0 0 40px;
 }
 
-.reviews__slide {
+.reviews__slider {
+    position: relative;
+
+}
+
+.reviews__slider-container {
+    width: 834px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.reviews__slider-line {
+    position: relative;
+    display: flex;
+    left: 0;
+    transition: 1s;
+}
+
+.reviews__slide-item {
     position: relative;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px 20px;
 
+    min-width: 834px;
     margin: 0;
 }
 
